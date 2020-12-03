@@ -1,0 +1,6 @@
+node.name: logstash_silverhawks_stg
+pipeline.id: silverhawks_stg
+pipeline.workers: 3
+pipeline.batch.size: 125
+config.reload.automatic: true
+config.reload.interval: 5s
